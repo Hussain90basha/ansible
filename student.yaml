@@ -5,13 +5,13 @@
      # Object
   - doorNo: 3-134
     street: "balaji nagar"
-    city: "kurnool"
+    city: kurnool
     pin: 518006
     type: current
 
   - doorNo: 3-134
     street: "balaji nagar"
-    city: "kurnool"
+    city: kurnool
     pin: 518006
     type: perm
   skills:
@@ -19,14 +19,14 @@
   - devops
   - cloud
 
-  - name: "eliyas basha"
-    dob: "23-03-2002"
-    age: 23
-    addresses:
+- name: "eliyas basha"
+  dob: "23-03-2002"
+  age: 23
+  addresses:
      # Object
-    - doorNo: 3-134
-      street: "balaji nagar"
-      city: "kurnool"
-      pin: 518006
-      type: current
+  - doorNo: 3-134
+    street: "balaji nagar"
+    city: kurnool
+    pin: 518006
+    type: current
  
