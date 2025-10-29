@@ -1,0 +1,55 @@
+<!-- List of student objects -->
+<Students>
+    <!-- Objects -->
+    <Student>
+        <Name>Hussain Basha</Name>
+        <DOB>23-03-2002</DOB>
+        <Age>22</Age>
+        <!-- List of objects -->
+        <Addresses>
+            <!-- / Object -->
+            <Address type="PERM">
+                <DoorNo>3-134</DoorNo>
+                <Street>Balaji Nagar</Street>
+                <PIN>518006</PIN>
+        </Address>
+        <Address type="Current">
+                <DoorNo>3-134</DoorNo>
+                <Street>Balaji Nagar</Street>
+                <PIN>518006</PIN>
+            </Address>
+        </Addresses>
+        <!-- List of String -->
+        <Skills>
+            <Skill>Java</Skill>
+            <Skill>DevOps</Skill>
+            <Skill>Cloud</Skill>
+         <Skills>   
+    </Student>
+
+    <Student>
+        <Name>Eliyas Basha</Name>
+        <DOB>23-03-2002</DOB>
+        <Age>22</Age>
+        <!-- List of objects -->
+        <Addresses>
+            <!-- / Object -->
+            <Address type="PERM">
+                <DoorNo>3-134</DoorNo>
+                <Street>Balaji Nagar</Street>
+                <PIN>518006</PIN>
+        </Address>
+        <Address type="Current">
+                <DoorNo>3-134</DoorNo>
+                <Street>Balaji Nagar</Street>
+                <PIN>518006</PIN>
+            </Address>
+        </Addresses>
+        <!-- List of String -->
+        <Skills>
+            <Skill>Java</Skill>
+            <Skill>DevOps</Skill>
+            <Skill>Cloud</Skill>
+        </Skills>
+    </Student>   
+</Students>

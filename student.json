@@ -1,0 +1,21 @@
+{
+    "name": "hussain basha",
+    "dob": "23-03-2002"
+    "addresses": [
+        {
+            "type": "currnet",
+            "doorno": "3-134",
+            "street": "balaji nagar",
+            "city": "knl",
+            "pin": "518006"
+        },
+        {
+            "type": "currnet",
+            "doorno": "3-134",
+            "street": "balaji nagar",
+            "city": "knl",
+            "pin": "518006"
+        }
+    ],
+    "skills": ["java", "devops", "cloud"]
+}

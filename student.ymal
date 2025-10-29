@@ -1,0 +1,32 @@
+- name: "hussain basha"
+  dob: "23-03-2002"
+  age: 23
+  addresses:
+     # Object
+  - doorNo: 3-134
+    street: "balaji nagar"
+    city: "kurnool"
+    pin: 518006
+    type: current
+
+  - doorNo: 3-134
+    street: "balaji nagar"
+    city: "kurnool"
+    pin: 518006
+    type: perm
+  skills:
+  - java
+  - devops
+  - cloud
+
+  - name: "eliyas basha"
+    dob: "23-03-2002"
+    age: 23
+    addresses:
+     # Object
+    - doorNo: 3-134
+      street: "balaji nagar"
+      city: "kurnool"
+      pin: 518006
+      type: current
+ 
