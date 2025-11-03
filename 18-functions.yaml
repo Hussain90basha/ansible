@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   vars:
-  Technologies: Devops, Linux, Shell, Ansible #string
+  technologies: Devops, Linux, Shell, Ansible #string
 
   tasks:
   - name: default variable
