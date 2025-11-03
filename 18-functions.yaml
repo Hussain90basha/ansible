@@ -61,7 +61,7 @@
       msg: "{{ ipaddress | ansible.utils.ipv4 }}"
 
   - name: grep for root
-    ansible.builtint.command: cat /etc/passwd | grep root
+    ansible.builtint.shell: cat /etc/passwd | grep root
     register: command_output 
 
   - name: print the command_output
