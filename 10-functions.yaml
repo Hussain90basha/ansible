@@ -1,0 +1,7 @@
+- name: functions
+  hosts: local
+  connections: local
+  tasks:
+  - name: default variable
+    ansible.built.in.debug:
+      msg: " Hello, {{ name }}"
