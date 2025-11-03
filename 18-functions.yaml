@@ -3,6 +3,8 @@
   connection: local
   vars:
     technologies: DevOps, Linux, Shell, Ansible #string
+    name: "Hussain basha M"
+    gmail: basha@GMAIL.COM  
   # Dictionary === map
     tags:
       Application: payment
@@ -45,5 +47,10 @@
       dest: ./student-data.json
       content: "{{ student_yaml | to_nice_yaml }}"
 
-  #- name: convert to uppercase
-   # ansible.builtin.debu    
+  - name: convert to uppercase
+    ansible.builtin.debug:
+      msg: "{{ name | upper }}" 
+
+  - name: convert to lowercase
+    ansible.builtin.debug:
+      msg: "{{ name | lower }}"        
